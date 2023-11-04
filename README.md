@@ -11,21 +11,19 @@
 
 Endpoint
 ```lua
-http://www.cloudservicezm.com/smsservice/httpapi
+https://www.cloudservicezm.com/smsservice/httpapi
 ```
 
 ## Request Format
 ```lua
-http://www.cloudservicezm.com/smsservice/httpapi?username=XXXXXXXX&password=XXXXXXX&
-msg=Succesfully+delivering+SMS+&shortcode=2343&sender_id=XXXXXXXXX&phone=2609796693
-50&api_key=121231313213123123
+https://www.cloudservicezm.com/smsservice/httpapiusername=XXXXXXXX&password=XXXXXXX&msg=Succesfully+delivering+SMS+&shortcode=2343&sender_id=XXXXXXXXX&phone=260975020473&api_key=121231313213123123
 ```
 
 ## 1.2 JSON API
 
 Endpoint
 ```lua
-http://www.cloudservicezm.com/smsservice/jsonapi
+https://www.cloudservicezm.com/smsservice/jsonapi
 ```
 
 ## REQUEST FORMAT
@@ -40,7 +38,7 @@ messages":[{"phone":"0975020473","message":"test1"},{"phone":"0975020473","messa
 
 Endpoint
 ```lua
-http://www.cloudservicezm.com
+https://www.cloudservicezm.com
 ```
 
 Username: xxxxxxx
@@ -54,7 +52,7 @@ IP Address/URL: 192.64.116.31
 # EXAMPLES
 ## JSON PHP
 ```json
-$url = 'http://www.cloudservicezm.com/smsservice/jsonapi'; 
+$url = 'httpS://www.cloudservicezm.com/smsservice/jsonapi'; 
 //Initiate cURL.
 $ch = curl_init($url); 
 //The JSON data.
@@ -66,7 +64,7 @@ $jsonData['auth']=array(
 );
 $jsonData['messages'] = array(
 array(
-'phone' => '0979669350',
+'phone' => '0975020473',
 'message' => 'test1'
  ),
  array(
@@ -92,11 +90,10 @@ $result = curl_exec($ch);
 ?>
 ```
 
-## HTTP API
+## HTTPS API
 ```lua
 <?php
-$url="http://www.cloudservicezm.com/smsservice/httpapi?username=tes&password=test&msg=t
-est+test&shortcode=2343&sender_id=XXXXXXXXX&phone=0979669350&api_key=121231313213
+$url="https://www.cloudservicezm.com/smsservice/httpapi?username=test&password=test&msg=test+test&shortcode=2343&sender_id=XXXXXXXXX&phone=0979669350&api_key=121231313213
 123123”;
 $ch = curl_init(); 
 curl_setopt($ch,CURLOPT_URL,$url);
