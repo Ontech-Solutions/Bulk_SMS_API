@@ -16,7 +16,7 @@ https://www.cloudservicezm.com/smsservice/httpapi
 
 ## Request Format
 ```lua
-https://www.cloudservicezm.com/smsservice/httpapiusername=XXXXXXXX&password=XXXXXXX&msg=Succesfully+delivering+SMS+&shortcode=2343&sender_id=XXXXXXXXX&phone=260975020473&api_key=121231313213123123
+https://www.cloudservicezm.com/smsservice/httpapiusername=XXXXXXXX&password=XXXXXXX&msg=Succesfully+delivering+SMS+&shortcode=388&sender_id=XXXXXXXXX&phone=260975020473&api_key=use_preshared
 ```
 
 ## 1.2 JSON API
@@ -93,8 +93,7 @@ $result = curl_exec($ch);
 ## HTTPS API
 ```lua
 <?php
-$url="https://www.cloudservicezm.com/smsservice/httpapi?username=test&password=test&msg=test+test&shortcode=2343&sender_id=XXXXXXXXX&phone=0979669350&api_key=121231313213
-123123”;
+$url="https://www.cloudservicezm.com/smsservice/httpapi?username=test&password=test&msg=test+test&shortcode=2343&sender_id=XXXXXXXXX&phone=0979669350&api_key=use_preshared”;
 $ch = curl_init(); 
 curl_setopt($ch,CURLOPT_URL,$url);
 curl_setopt($ch, CURLOPT_POST,1);
