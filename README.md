@@ -16,7 +16,7 @@ https://www.cloudservicezm.com/smsservice/httpapi
 
 ## Request Format
 ```lua
-https://www.cloudservicezm.com/smsservice/http?apiusername=XXXXXXXX&password=XXXXXXX&msg=Succesfully+delivering+SMS+&shortcode=388&sender_id=XXXXXXXXX&phone=260975020473&api_key=use_preshared
+https://www.cloudservicezm.com/smsservice/httpapi?username=XXXXXXXX&password=XXXXXXX&msg=Succesfully+delivering+SMS+&shortcode=388&sender_id=XXXXXXXXX&phone=260975020473&api_key=use_preshared
 ```
 
 ## 1.2 JSON API
