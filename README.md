@@ -18,6 +18,12 @@ Endpoint
 https://www.cloudservicezm.com/smsservice/httpapi
 ```
 
+Headers
+```lua
+Accept : application/json
+Content-Type : application/json
+```
+
 ## Request Format
 ```lua
 https://www.cloudservicezm.com/smsservice/httpapi?username=XXXXXXXX&password=XXXXXXX&msg=Succesfully+delivering+SMS+&shortcode=388&sender_id=XXXXXXXXX&phone=260975020473&api_key=use_preshared
