@@ -8,6 +8,10 @@
 ## SMS Length is 160 Characters but supports multiple
 
 ## 1.1 HTTP API
+Method
+```lua
+POST
+```
 
 Endpoint
 ```lua
